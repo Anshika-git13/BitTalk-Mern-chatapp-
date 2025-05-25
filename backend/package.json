@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "start":"node index.js",
-    "build":"npm install",
+    "start": "node index.js",
+    "build": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -21,6 +21,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.2.4",
     "nodemon": "^3.1.0",
+    "sentiment": "^5.0.2",
     "socket.io": "^4.7.5"
   }
 }
