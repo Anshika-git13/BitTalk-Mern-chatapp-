@@ -22,6 +22,10 @@ const corsOption={
 };
 app.use(cors(corsOption)); 
 
+app.get("/", (req, res) => {
+    res.send("Backend is running!");
+});
+
 
 // routes
 app.use("/api/v1/user",userRoute); 
